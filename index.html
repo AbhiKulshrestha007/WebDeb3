@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" conent="IE=edge">
+    <meta name="viewpoint" content="width=device-width initial-scale=1.o">
+    <title>assignment 3</title>
+</head>
+
+<body>
+    <h1>Assignment 3</h1>
+    <form action=" https://abhikulshrestha007.github.io/response/"><!-- this idea was given by batchmate vivek-->
+        <div>
+        <label for="FirstName"><b>First Name :-</b></label>
+        <input placeholder="FirstName" required id="FirstName" name="FirstName" type="text"></input>
+         <!--placeholder tag is used from a youtube video-->
+         <label for="Last Name"><b>Last Name:-</b></label>
+         <input placeholder="LastName" required id="Last Name" name="LastName" type="text"></input>
+        </div>
+        <hr>
+        <div>
+        <b>
+            <p>I love:-</p>
+        </b>
+    <p> <input name="ilove" type="radio" value="EatingChicken" id="Chicken"></input>
+        <label for="Chicken">Eating Chicken</label><!--used <p> instead of <br> because <p> gives both space 
+         between two radio buttond and line break to match in pdf fiven in classroom otherwise have to put two
+        <br> tags -->
+    </p>
+    <p>
+        <input name="ilove" type="radio" value="travelling" id="Travel"></input>
+        <label for="Travel">Travelling</label> <!--used label tag so clicking on text also works-->
+    </p>
+    <p>
+        <input name="ilove" type="radio" value="developing" id="Develop"></input>
+        <label for="Develop">Developing</label>
+        </p>
+    </div>
+        <hr>
+         <br>
+                    <input name="device" type="checkbox" id="laptop" value="laptop"></input>
+                     <label for="laptop">I Have a Laptop</label>
+           <br>
+                    <input name="device" type="checkbox" id="MobilePhone" value="Mobile"></input>
+                    <label for="MobilePhone">I have a Mobile Phone </label>
+           <br>
+                     <input name="device" type="checkbox" id="Desktop" value="Desktop"></input>
+                     <label for="Desktop">I have a Desktop</label>
+            <hr>
+            <div>
+            <label for="Email"><b>Email:-</b></label>   
+            <input placeholder="Email" name="Email" type="Email" required ></input>
+  
+            <label for="password"><b>Password:-</b></label>
+            <input placeholder="Password" required minlength="5" name="password" type="password"></input>
+            </div>
+            <hr>
+           <div>
+            <label for="yourage">Tell us your age:-</label> 
+            <select name="age" id="yourage" required >
+                <option  disabled selected>your age</option>
+                <option > 5-15 </option>
+                <option > 15-25 </option>
+                <option >25-35</option>
+                <option >35-45</option>
+                <option >45-55</option>
+                <option >55-65</option>
+                <option >65-75</option>
+                <option >75-85</option>
+                <option >85-95</option>
+            </select>
+            </div>
+            <hr>
+            <button>submit</button>
+    </form>
+</body>
